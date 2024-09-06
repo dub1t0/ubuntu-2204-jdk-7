@@ -28,10 +28,11 @@ The script is designed to simplify the installation process of JDK 7 on newer Ub
 
 2. Run the Script:
    ```
-   chmod +x install-jdk7.sh
-   ./install-jdk7.sh
+   chmod +x install-jdk-7u80-on-ubuntu-22.04.sh
+   ./install-jdk-7u80-on-ubuntu-22.04.sh
    
    ```
+   >> PLEASE BE AWARE THAT AT THIS STEP YOUR PASSWORD WILL BE PROMPTED AND YOUR USER MUST HAVE SUDO PRIVILEGES.
    
 3. Follow the On-Screen Instructions: The script will automatically detect the system architecture, download the appropriate JDK version, and set up the environment.
 
