@@ -1,6 +1,6 @@
-# JDK 7 Installation Script for Ubuntu
+# JDK 7 Installation Script for Ubuntu 22.04
 
-This shell script automates the installation of Oracle JDK 7 (7U80) on Ubuntu systems. 
+This shell script automates the installation of Oracle JDK 7 (version 7U80 build 15) on Ubuntu 22.04 systems. 
 It detects the system architecture (32-bit or 64-bit) and downloads the corresponding JDK archive, 
 sets up the Java environment variables, and configures the system alternatives for Java commands. 
 The script is designed to simplify the installation process of JDK 7 on newer Ubuntu versions, which is no longer available through standard package managers.
@@ -40,8 +40,9 @@ The script is designed to simplify the installation process of JDK 7 on newer Ub
 ## Important Notes
 
 * This script requires `sudo` permissions to install Java in `/usr/local/java` and to update system alternatives.
-* The JDK archives are sourced from a GitHub repository to bypass Oracle’s login requirement, making the process seamless and script-friendly.
+* The JDK archives are sourced from a GitHub repository (this one) to bypass Oracle’s login requirement, making the process seamless and script-friendly.
 * Oracle JDK 7 is no longer officially supported or updated by Oracle. Use this script at your own risk, especially for production environments.
+* This may work on a newer or older Ubuntu version, but it was not tested, feel free to do so.
 
 ## Credits
 
